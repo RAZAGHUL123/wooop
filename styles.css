@@ -1,45 +1,79 @@
+
 body {
-    background-color:black;
-    color:white;
-   font-family:Arial, Helvetica, sans-serif;
-   line-height:1.6;
-   margin:0;
-   padding:0;
-}
-nav {
+    background-color: navy;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  main {
+    border: solid red 10rem;
+    padding: 5rem;
+  }
+  
+
+  nav {
     display: flex;
     justify-content: space-between;
-    background-color:grey;
+    background-color: grey;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
   }
   
   nav ul {
     display: flex;
-  }
-  nav a {
-    color: #ff8c00; /* set the link color to bright orange */
-    text-decoration: none; /* remove underlines */
-    padding: 5px; /* add some padding for spacing */
+    list-style: none; 
   }
   
-  /* set the hover effect for the links */
+  nav a {
+    color: #ff8c00;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
   nav a:hover {
-    background-color: #ff8c00; /* set the background color to bright orange */
-    color: #ffffff; /* set the link color to white */
+    background-color: #ff8c00;
+    color: #ffffff;
   }
   
   nav li {
     margin-right: 20px;
   }
   
-h1 {
-    color:07A0C3;
-}
-img {
-    width: 40rem;
-    height: 40rem;
-    border-radius:100%;
+
+  h1 {
+    color: #07a0c3; 
   }
   
-footer {
-    background-color:#dd1c1a;
-}
+
+  img {
+    width: 35rem;
+    height: 35rem;
+    margin: 0; /* Remove the margin from the image */
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  img:hover {
+    transform: scale(1.1); 
+  }
+  
+
+  #logo {
+    color: white;
+    padding: 0.5rem 1.5rem 0rem 1.5rem;
+  }
+  
+ 
+  .image-container {
+    text-align: center;
+    margin-right: 10%; 
+  }
+  
+
+  footer {
+    background-color: #dd1c1a;
+  }
+  
