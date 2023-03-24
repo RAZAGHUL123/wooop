@@ -1,13 +1,30 @@
 body {
-    background-color:#F0C808;
+    background-color:black;
+    color:white;
+   font-family:Arial, Helvetica, sans-serif;
+   line-height:1.6;
+   margin:0;
+   padding:0;
 }
 nav {
     display: flex;
     justify-content: space-between;
+    background-color:grey;
   }
   
   nav ul {
     display: flex;
+  }
+  nav a {
+    color: #ff8c00; /* set the link color to bright orange */
+    text-decoration: none; /* remove underlines */
+    padding: 5px; /* add some padding for spacing */
+  }
+  
+  /* set the hover effect for the links */
+  nav a:hover {
+    background-color: #ff8c00; /* set the background color to bright orange */
+    color: #ffffff; /* set the link color to white */
   }
   
   nav li {
@@ -18,7 +35,9 @@ h1 {
     color:07A0C3;
 }
 img {
-    width: 50%;
+    width: 40rem;
+    height: 40rem;
+    border-radius:100%;
   }
   
 footer {
