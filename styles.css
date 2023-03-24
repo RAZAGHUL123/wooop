@@ -1,0 +1,26 @@
+body {
+    background-color:#F0C808;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+h1 {
+    color:07A0C3;
+}
+img {
+    width: 50%;
+  }
+  
+footer {
+    background-color:#dd1c1a;
+}
